@@ -1,0 +1,27 @@
+@import url(./reset.css);
+@import url(./var.css);
+
+body,
+html {
+    font-family: var(--font-family);
+    font-size: 17px;
+}
+
+.container {
+    max-width: var(--width-container);
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
