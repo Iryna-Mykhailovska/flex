@@ -1,10 +1,15 @@
 @import url(./reset.css);
 @import url(./var.css);
 
+* {
+    box-sizing: border-box;
+}
+
 body,
 html {
     font-family: var(--font-family);
     font-size: 17px;
+    color: var(--text);
 }
 
 .container {
@@ -31,24 +36,47 @@ html {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    color: var(--color-menu);
+    color: var(--text);
 }
 
 .menu__link.active {
-    color: var(--color-active);
+    color: var(--orange);
 }
 
-.header__button {
-    border: 1px solid var(--border-button);
+.button {
+    color: var(--white);
+    background-color: var(--orange);
+    border: none;
     border-radius: 4px;
     padding: 13px 25px;
-    background-color: inherit;
     font-size: 16px;
     font-weight: 600;
 }
 
-.sign_up {
-    color: var(--bg-main);
-    background-color: var(--color-active);
-    border: none;
+.sign_in {
+    border: 1px solid var(--border-button);
+    background-color: inherit;
+    color: var(--text);
+    margin-right: 32px;
+}
+
+.hero {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--text-light);
+    width: 500px;
+    margin-bottom: 20px;
 }

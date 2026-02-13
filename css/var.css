@@ -4,9 +4,10 @@
     --second-family: "FontAwesome", sans-serif;
     --third-family: "Gotham", sans-serif;
     --font3: "Poppins", sans-serif;
-    --bg-main:#ffffff;
-    --color-menu:#2F281E;
-    --color-active:#FF9900;
-    --border-button:#BCD0E5;
+    --white: #ffffff;
+    --text: #2f281e;
+    --text-light:#544837;
+    --orange: #FF9900;
+    --border-button: #BCD0E5;
 
 }
