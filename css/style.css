@@ -147,21 +147,21 @@ a {
     width: 525px;
 }
 
-.benefits-left>p {
+.benefits-left > p , .product-managers-right > p{
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: var(--text-tool);
 }
 
-.benefits-list-item>h3 {
+.benefits-list-item > h3 {
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 10px;
 }
 
-.benefits-list-item>p {
+.benefits-list-item > p {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -171,7 +171,9 @@ a {
 .descriptin {
     margin-bottom: 40px;
 }
-
+.product-managers-right{
+    width: 505px;
+}
 .footer::before {
     content: '';
     height: 2px;
