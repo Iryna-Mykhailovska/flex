@@ -25,3 +25,30 @@ html {
     justify-content: space-between;
     gap: 20px;
 }
+
+.menu__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-menu);
+}
+
+.menu__link.active {
+    color: var(--color-active);
+}
+
+.header__button {
+    border: 1px solid var(--border-button);
+    border-radius: 4px;
+    padding: 13px 25px;
+    background-color: inherit;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sign_up {
+    color: var(--bg-main);
+    background-color: var(--color-active);
+    border: none;
+}
