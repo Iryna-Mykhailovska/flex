@@ -25,10 +25,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+header{
     margin-top: 17px;
     margin-bottom: 17px;
 }
-
 .menu {
     display: flex;
     justify-content: space-between;
