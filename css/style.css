@@ -25,12 +25,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
-header{
+
+.header {
     margin-top: 17px;
     margin-bottom: 17px;
 }
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -53,7 +54,7 @@ header{
 .button {
     color: var(--white);
     background-color: var(--orange);
-    border:1px solid transparent;
+    border: 1px solid transparent;
     border-radius: 4px;
     padding: 13px 25px;
     font-size: 16px;
