@@ -43,7 +43,7 @@ a {
     color: var(--text);
 }
 
-.menu__link.active {
+.menu__link:hover,.menu__link.active {
     color: var(--orange);
 }
 
@@ -198,7 +198,6 @@ footer {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
 footer>.flex-container {
     align-items: flex-start;
 }
