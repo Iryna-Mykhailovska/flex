@@ -177,25 +177,65 @@ a {
     width: 505px;
 }
 
-.footer::before {
-    content: '';
-    height: 2px;
-    color: black;
-    position: absolute;
-    top: 0;
-    left: 25px;
-    /* border-top: 1px solid #BCD0E57F; */
-
+footer{
+    border-top:1px solid #BCD0E57F;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-footer>.flex-container{
+
+footer>.flex-container {
     align-items: flex-start;
 }
+
+.col>h3 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.menu_quick_item,
+.menu_staff_item {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.menu_quick_item:last-child,
+.menu_staff_item:last-child{
+    margin-bottom: 0;
+}
+.menu_quick_link,
+.menu_staff_link {
+    color: var(--text-light);
+}
+
+.form-title {
+    margin-bottom: 25px;
+}
+
 form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 25px;
 }
-input{
+
+input {
     width: 340px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border: 1px solid var(--border-button);
+}
+
+input::placeholder {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color:var(--border-button) ;
+
+
 }
