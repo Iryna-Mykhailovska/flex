@@ -43,24 +43,29 @@ a {
     color: var(--text);
 }
 
-.menu__link:hover,.menu__link.active {
+.menu__link:hover,
+.menu__link.active {
     color: var(--orange);
 }
 
 .button {
     color: var(--white);
     background-color: var(--orange);
-    border: none;
+    border:1px solid transparent;
     border-radius: 4px;
     padding: 13px 25px;
     font-size: 16px;
     font-weight: 600;
 }
 
-.sign_in {
+.button:hover {
     border: 1px solid var(--border-button);
     background-color: inherit;
     color: var(--text);
+
+}
+
+.sign_in {
     margin-right: 32px;
 }
 
@@ -198,6 +203,7 @@ footer {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 footer>.flex-container {
     align-items: flex-start;
 }
